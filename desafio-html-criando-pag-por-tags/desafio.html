@@ -5,15 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conceitos básicos de HTML</title>
+  <style>
+    p{
+      text-align:justify;
+    }
+    .links{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  </style>
 </head>
 <body>
-  <h1>Conceitos Básicos de HTML</h1>
+  <h1 id="inicio">Conceitos Básicos de HTML</h1>
   <hr/>
-  <h2>Definição</h2>
-  <p style="text-align:justify">
+  <div class="links">
+    <a href="#definicao"><h4>Definição</h4></a>
+    <a href="#estrutura"><h4>Estruruta básica</h4></a>
+    <a href="#tags"><h4>Tags HTML</h4></a>
+    <a href="#atributos"><h4>Atributos das Tags</h4></a>
+    <a href="#textos"><h4>Textos</h4></a>
+    <a href="#listas"><h4>Listas</h4></a>
+    <a href="#links"><h4>Links</h4></a>
+    <a href="#refs"><h4>Referências</h4></a>
+  </div>
+ 
+  <h2 id="definicao">Definição</h2>
+  <p>
     HTML é um abriviação para <i>Hyper Text Markup Language</i>, que do inglês significa linguagem de marcação de hipertexto. Talvez pode haver algum tipo de confusão com a tradução mas <strong>o html não é uma lingua de programa</strong> e sim uma tipo de texto onde há marcadores ou tags que estruturam o texto onde são aplicados.
   </p>
-  <h2>Estruruta básica</h2>
+  <a href="#inicio"><h6>Início</h6></a>
+  <h2 id="estrutura">Estruruta básica</h2>
   <p>
     Basicamente um arquivo html tem algumas divisões básicas, nas quais consistem: html, head, body.
   </p>
@@ -47,13 +69,58 @@
     <p>
       É nesta tag onde serão colocados todo o contéudo que será visível ao usuário do vanegador. Boa parte das tags utulizadas serão colocadas dentro da tag body e onde a estruturação em html pode variar conforme a técnica e imaginação do desenvolvedor em questão.
     </p>
-  <h2>Tags HTML</h2>
-  
-  <h2>Atributos das Tags</h2>
-  <h2>Textos</h2>
-  <h2>Listas</h2>
-  <h2>Links</h2>
-  <h2>Referências</h2>
-  
+  <a href="#inicio"><h6>Início</h6></a>
+  <h2 id="tags">Tags HTML</h2>
+  <p>
+    As Tags no html são usadas para fazer a estruturação do documento como um todo. São por meio delas que será possível inserir variados tipos de conteúdos, como por exemplos textos, tabelas, listas, imagens, vídeos, formulários trechos de códigos entre outros. 
+  </p>
+  <a href="#inicio"><h6>Início</h6></a>
+  <h2 id="atributos">Atributos das Tags</h2>
+  <p>
+    Algumas tags podem vir acompanhadas por atributos. atributos são segmentaçãoes que são colocadas para fazer a estruturação e formatação de forma particularmente na tag que é associada. Alguns atributos são gerais e são utilizados conjuntamente com o CSS, já outros são atributos específicos para certas tags. Temos como exemplo os atributos "id", "class", "href" que são gerais, e por exemplo a tag input para inserir alguma entrada tem o atributo "type" que indica o tipo de entrada a ser inserida.
+  </p>
+  <a href="#inicio"><h6>Início</h6></a>
+  <h2 id="textos">Textos</h2>
+  <p>
+    Há várias tipos de tags que são utilizadas para estruturação de texto em particular. Podemos citar algumas segmentação, como por exemplo: p, strong, i, entre outras. 
+    Por meio delas é possível que o texto colocado seja melhor estrurutado, segmentado e com o auxílio do CSS, pode ser estilizado.  
+  </p>
+  <a href="#inicio"><h6>Início</h6></a>
+  <h2 id="listas">Listas</h2>
+    <h3>Listas Ordenadas</h3>
+    <p>
+      São utilizadas para fazer lista numerdas. São utilizadas por meio da tag ol, e cada item é colocado com li. da senguinte forma. 
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ol>
+    </p>
+    <h3>Listas não Ordenadas</h3>
+    <p>
+      São utilizadas para fazer lista não enumeradas. São utilizadas por meio da tag ul, e cada item é colocado com li. da senguinte forma. 
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </p>
+  <a href="#inicio"><h6>Início</h6></a>
+  <h2 id="links">Links</h2>
+  <p>
+    Dentro das tags utilizadas, as tags para links são as mais importante dentro do html, por é por meio delas que há a navegação. a teg "a" vem da ancoragem que ancora o que é colocado a um local específico, seja da mesma págino ou da página seguinte por meio de um link, ou um identificador. 
+  </p>
+  <a href="#inicio"><h6>Início</h6></a>
+  <h2 id="refs">Referências</h2>
+  <a href="https://www.w3schools.com/html/html_intro.asp">Introdução à HTML</a>
+  <br>
+  <a href="https://www.devmedia.com.br/html-entities-html-symbols-html-characters/1011">HTML symbols - HTML characters</a>
+  <br>
+  <a href="https://pt.wikihow.com/Inserir-Espaços-no-HTML#:~:text=Para%20dar%20apenas%20um%20espaço,vezes%20você%20pressiona%20a%20tecla.&text=Digite%20para%20obrigar%20o,mais%20um%20espaço%20em%20branco.">Inserir espaços em html</a>
+
 </body>
 </html>
