@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Cadastro</title>
+</head>
+<body>
+  <form nome="signup" autocomplete="on" onsubmit="alert('Enviei um formulário')" method="POST" action="https://meusite.com.br/signup">
+    Nome: <input type="text" name="name"/><br>
+    Idade: <input type="number" name="age"/><br>
+    Senha: <input type="password" name="password"/><br>
+    Color: <input type="color" name="color"/>
+    <lable><input type="checkbox">CheckBox</lable><br>
+    <lable><input type="checkbox">CheckBox</lable><br>
+
+    <lable><input type="radio" name="sim">Radio</lable><br>
+    <lable><input type="radio" name="sim">Radio</lable><br>
+    <lable><input type="radio" name="sim">Radio</lable><br>
+
+    <label><input type="date">Date</label><br>
+    Email: <input type="email" /><br>
+    <label>Range:</label><input type="range" min="0" value="50 "/><br>
+    Url: <input type="url" /><br>
+
+    Hidden: <input type="hidden" /><br>
+    
+    File: <input type="file" multiple /><br>
+    
+    Search: <input type="search" /><br>
+
+    Mensagem: <textarea rows="10" type="text"></textarea>
+
+
+    <button  type="submit">Enviar</button>
+  
+  </form>
+</body>
+</html>
