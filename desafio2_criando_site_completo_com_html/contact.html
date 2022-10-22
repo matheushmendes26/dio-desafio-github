@@ -6,36 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica Todo Olhar</title>
     <link rel="stylesheet" href="base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
         <div class="menu">
             <h2>Todo Olhar</h2>
             <ul>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/about.html">Sobre</a></li>
-                <li><a href="/opening_hours.html">Horários</a></li>
-                <li><a href="/contact.html">Contato</a></li>
+                <li><a href="/home.html"><button>Home</button></a></li>
+                <li><a href="/about.html"><button>Sobre</button></a></li>
+                <li><a href="/opening_hours.html"><button>Horários</button></a></li>
+                <li><a href="/contact.html"><button>Contato</button></a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
+                <img src="/image4.png" width=100% alt="Imagem do interior da Clínica Todo Olhar">
             </div>
     
-            <div class="content">
-                <h2>Sobre Nossa Clínica</h2>
-                <p>
-                  O Instituto São Lucas se modernizou e agora oferece uma infraestrutura completa e atualizada para a oftalmologia, com atendimento personalizado e humanizado, além de equipamentos de alta tecnologia para exames e cirurgias.
-                </p>
-                <p>
-                  Contamos também com centro cirúrgico ambulatorial que dispõe de amplas instalações e equipamentos ultramodernos, permitindo a realização de diversos procedimentos cirúrgicos com total segurança e qualidade para pacientes.
-                </p>
+            <div class="content" class="frame">
+                <h2>Contato</h2>
+                    <p>Telefone de contato: 34 3232 3232</p>
+                    <p>Celular e Whatsapp: 34 9 9999 9999</p> 
+                    <p>
+                       Endereço: Todo Olhar – Av. ABCDE, 1700 – Paris – 38000-000 – Uberlândia –  MG 
+                    </p>
+                    <form>
+                        <fieldset>
+                          <legend>Entre em contato conosco</legend>  
+                            <label>Nome:</label><input type="text"><br>
+                            <label>Email:</label><input type="email"><br>
+                            <label>Assunto:</label><input type="text"><br>
+                            <label for="message">Mensagem:</label><textarea id="message"name="message"></textarea><br><br>
+                        <div class="buttons">
+                            <button type="reset">Limpar</button><br>
+                            <button type="submit">Enviar</button><br>
+                        </div>
+                        </fieldset>
+                        
+                    </form>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.1786675777425!2d-48.29405035101389!3d-18.923484187112635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4445887cc03ff%3A0xf2a29f333444af8a!2sHCO%20Centro%20Completo%20de%20Oftalmologia!5e0!3m2!1spt-BR!2sbr!4v1666448755199!5m2!1spt-BR!2sbr" width="980" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
             </div>
     
             <div class="footer">
                 <p>
-                  HCO – Av. Getúlio Vargas, 1700 – Daniel Fonseca – 38400-434 – Uberlândia –  MG 
+                  Todo Olhar – Av. ABCDE, 1700 – Paris – 38000-000 – Uberlândia –  MG 
                 </p>
                 <h6>Feito por: Matheus Henrique Ramos Mendes</h6>
             </div>
